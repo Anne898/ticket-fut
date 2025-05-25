@@ -71,7 +71,7 @@
 
     #button-container {
       position: absolute;
-      bottom: 50px;
+      bottom: 150px;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -191,7 +191,7 @@
 
     video.addEventListener('timeupdate', function () {
       const currentTime = video.currentTime;
-      if (currentTime >= 31.16) {
+      if (currentTime >= 10) {
         mostrarBotones();
       } else {
         ocultarBotones();
